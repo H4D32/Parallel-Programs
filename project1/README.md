@@ -133,8 +133,7 @@ The image used for performance evaluation is a 20K JPEG image with around 250 mi
   - OpenACC 
 
 - **Performance of The Program**
-  Try your best to do optimization on your parallel programs for higher speedup.If your programs shows similar performance to the sample solutions provided by the teaching stuff, then you can get full mark. Points will be deduted if your parallel programs perform poor while no justification can be found in the report. (Target Peformance will be released soon).
-  Some hints to optimize your program are listed below:
+  Some ways used to optimize the program are listed below:
   - Try to avoid nested for loop, which often leads to bad parallelism.
   - Change the way that image data or filter matrix are storred for more efficient memory access.
   - Try to avoid expensive arithmetic operations (for example, double-precision floating point division is very expensive, and takes a few dozens of cycles to finish).
