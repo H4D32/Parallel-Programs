@@ -138,6 +138,7 @@ The image used for performance evaluation is a 20K JPEG image with around 250 mi
   - Change the way that image data or filter matrix are storred for more efficient memory access.
   - Try to avoid expensive arithmetic operations (for example, double-precision floating point division is very expensive, and takes a few dozens of cycles to finish).
   - Partition your data for computation in a proper way for balanced workload when doing parallelism.
+  - More about the optimization in [the report](report.pdf)
 
 ### How to compile the programs?
 
